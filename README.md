@@ -17,7 +17,7 @@ Este proyecto ofrece una solución robusta y fácil de usar para la extracción 
 - Sistema Operativo: Windows 10/11, MacOS X, Linux
 - Docker: Última versión (ver Docker Documentation para instrucciones específicas de instalación)
 
-## Guía de Instalación Más Detallada
+## Guía de Instalación
 
 ### Preparativos
 
@@ -27,8 +27,8 @@ Este proyecto ofrece una solución robusta y fácil de usar para la extracción 
 2. **Clonación del Repositorio:**
    - Si eres nuevo en Git, instala Git siguiendo las instrucciones en Git Installation Guide.
    - Abre tu terminal y ejecuta:
-     git clone https://tu-repositorio.git
-     cd tu-repositorio
+   - git clone https://tu-repositorio.git
+   - cd tu-repositorio
 
 ### Construcción y Ejecución con Docker
 
@@ -71,11 +71,7 @@ Consulta el archivo CONTRIBUTING.md para más detalles sobre políticas de contr
 
 Para preguntas o colaboraciones, por favor contacta a tuemail@dominio.com.
 
-## Correcciones Menores
-
-(Realizar las correcciones tipográficas o gramaticales necesarias)
-
-## Sección de Licencia
+## icencia
 
 Este proyecto está licenciado bajo la Licencia MIT, lo que permite una amplia libertad para uso personal y comercial. Un resumen de la licencia incluye la permisión de uso, copia, modificación, fusión, publicación, distribución, sublicenciación, y/o venta de copias del software.
 
