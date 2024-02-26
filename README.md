@@ -71,7 +71,7 @@ Consulta el archivo CONTRIBUTING.md para más detalles sobre políticas de contr
 
 Para preguntas o colaboraciones, por favor contacta a tuemail@dominio.com.
 
-## icencia
+## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT, lo que permite una amplia libertad para uso personal y comercial. Un resumen de la licencia incluye la permisión de uso, copia, modificación, fusión, publicación, distribución, sublicenciación, y/o venta de copias del software.
 
