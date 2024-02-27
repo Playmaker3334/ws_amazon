@@ -66,7 +66,7 @@ Consulta el archivo CONTRIBUTING.md para más detalles sobre políticas de contr
 
 ## Información de Contacto
 
-Para preguntas o colaboraciones, por favor contacta a tuemail@dominio.com.
+Para preguntas o colaboraciones, por favor contacta a jikjfeippk123@gmail.com.
 
 ## Licencia
 
