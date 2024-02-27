@@ -39,14 +39,13 @@ This project offers a robust and user-friendly solution for web data extraction,
 2. **Repository Cloning:**
    - If you are new to Git, install Git following the instructions in the Git Installation Guide.
    - Open your terminal and execute:
-   `npm install`
-   - git clone https://github.com/Playmaker3334/ws_amazon.git
-   - cd ws_amazon
+   - `git clone https://github.com/Playmaker3334/ws_amazon.git`
+   - `cd ws_amazon`
 
 ### Building and Running with Docker
 
-- docker-compose build
-- docker-compose up
+- `docker-compose build`
+- `docker-compose up`
 
 This starts the application on http://localhost:6000.
 
