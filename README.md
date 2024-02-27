@@ -1,50 +1,62 @@
-# Web Scraper con Flask & Docker: Una Solución Integral para la Extracción de Datos Web
+# Web Scraper con Flask & Docker
 
-## Descripción Más Detallada del Proyecto
+## Project description
 
-Este proyecto ofrece una solución robusta y fácil de usar para la extracción de datos web, diseñada específicamente para superar los retos comunes de la recolección de información en línea. Al combinar la potencia de Python, Flask, y Docker, este web scraper es capaz de procesar y extraer datos de manera eficiente de sitios web complejos como Amazon, ofreciendo una alternativa superior a las herramientas de scraping tradicionales gracias a su enfoque modular y escalable. Es ideal para investigadores de mercado, desarrolladores de aplicaciones de comparación de precios, y cualquier persona interesada en la minería de datos web.
+This project offers a robust and user-friendly solution for web data extraction, specifically designed to overcome the common challenges of online information collection. By combining the power of Python, Flask, and Docker, this web scraper is capable of efficiently processing and extracting data from complex websites like Amazon, providing a superior alternative to traditional scraping tools thanks to its modular and scalable approach. It is ideal for market researchers, price comparison app developers, and anyone interested in web data mining.
 
-## Requerimientos del Sistema
+## Requeriments
 
 ### Hardware
 
-- CPU: 2 GHz de doble núcleo o superior
-- Memoria: Mínimo 4 GB RAM
-- Espacio en Disco: Mínimo 10 GB de espacio libre
+- CPU: 2 GHz dual-core or higher
+- Memoria: At least 4 GB RAM
+- Disk Space: At least 10 GB of free space
 
 ### Software
 
-- Sistema Operativo: Windows 10/11, MacOS X, Linux
-- Docker: Última versión (ver Docker Documentation para instrucciones específicas de instalación)
+- Operating System: Windows 10/11, MacOS X, Linux
+- Docker: Latest version (see Docker Documentation for specific installation instructions)
 
-## Guía de Instalación
+## Tools
+- pandas
+- requests
+- beautifulsoup4
+- flask
+- asyncio
+- aiofiles
+- Docker
+- postman
+- vsCode
+- Github
 
-### Preparativos
+## Installation Guide
 
-1. **Instalación de Docker:**
-   - Visita Docker Documentation y sigue las instrucciones específicas para tu sistema operativo.
+### Preparations
 
-2. **Clonación del Repositorio:**
-   - Si eres nuevo en Git, instala Git siguiendo las instrucciones en Git Installation Guide.
-   - Abre tu terminal y ejecuta:
-   - git clone https://tu-repositorio.git
-   - cd tu-repositorio
+1. **Docker instalation**
+   - Visit Docker Documentation and follow the specific instructions for your operating system.
 
-### Construcción y Ejecución con Docker
+2. **Repository Cloning:**
+   - If you are new to Git, install Git following the instructions in the Git Installation Guide.
+   - Open your terminal and execute:
+   - git clone https://github.com/Playmaker3334/ws_amazon.git
+   - cd ws_amazon
 
-docker-compose build
-docker-compose up
+### Building and Running with Docker
 
-Esto inicia la aplicación en http://localhost:6000.
+- docker-compose buil
+- docker-compose up
 
-## Mejoras en la Sección de Uso
+This starts the application on http://localhost:6000.
 
-Para interactuar con el endpoint `/scrap`, puedes utilizar herramientas como curl o Postman:
+## Improvements in the Usage Section
 
-- **Con Curl:**
+To interact with the /scrap endpoint, you can use tools like curl or Postman:
+
+- **With Curl:**
   curl -X POST -H "Content-Type: application/json" -d '{"url": "https://www.amazon.com.mx/..."}' http://localhost:6000/scrap
 
-- **Con Postman:**
+- **With Postman:**
   - Método: POST
   - URL: http://localhost:6000/scrap
   - Body: raw JSON
@@ -53,22 +65,29 @@ Para interactuar con el endpoint `/scrap`, puedes utilizar herramientas como cur
     }
 
 
-## Detalles de Contribución
+## Contribution Details
 
-Para contribuir al proyecto, por favor sigue los siguientes pasos:
+To contribute to the project, please follow these steps:
 
-1. Haz un fork del repositorio.
-2. Crea una nueva rama para tu característica o corrección.
-3. Haz tus cambios.
-4. Envía un pull request con una descripción detallada de tus cambios.
 
-Consulta el archivo CONTRIBUTING.md para más detalles sobre políticas de contribución.
+1. Fork the repository.
+2. Create a new branch for your feature or correction.
+3. Make your changes.
+4. Submit a pull request with a detailed description of your changes.
 
-## Información de Contacto
+## Current Contributors
+- KRISHNA SANDOVAL CAMBRANIS
+- JOAQUIN DE JESUS MURGUIA ORTIZ
+- PEDRO ADOLFO AVILA COLLI
+- ROGELIO HERBERT NOVELO ZAPATA
 
-Para preguntas o colaboraciones, por favor contacta a jikjfeippk123@gmail.com.
 
-## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT, lo que permite una amplia libertad para uso personal y comercial. Un resumen de la licencia incluye la permisión de uso, copia, modificación, fusión, publicación, distribución, sublicenciación, y/o venta de copias del software.
+##  Contact Information
+
+For questions or collaborations, please contact jikjfeippk123@gmail.com.
+
+## License
+
+This project is licensed under the MIT License, allowing wide latitude for personal and commercial use. A license summary includes permission to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software.
 
