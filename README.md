@@ -44,8 +44,9 @@ This project offers a robust and user-friendly solution for web data extraction,
 
 ### Building and Running with Docker
 
-- `docker-compose build`
-- `docker-compose up`
+- `docker-compose up --build`
+- We just need to run this command which will activate the dockerfile and do the creation of everything else.
+
 
 This starts the application on http://localhost:6000.
 
