@@ -149,7 +149,7 @@ class Scrapper:
         print(f"Save to file time: {time.time() - save_start_time:.2f} seconds")
 
 # URL of the web page to scrape
-url = 'https://www.amazon.com.mx/HP-procesador-i5-1135G7-generaci%C3%B3n-Bluetooth/dp/B09LM6SZKG/ref=sr_1_7?crid=KWKTKN6OPHQS&dib=eyJ2IjoiMSJ9.mvJh-CBqHpJNE0St7UH7lB1R5FvbR0R_Yrw5mXgh-4T4NU04zHRiRsb-j5Y6C5mpLdQrfXuUlZbuWokHB5SdgWNKO7LHW1HJsRtqeEXsQAFyX8VJqqg0snSule9rS5vELSccOFVP9tEVV_k2O0p9S_ztOiivc_9R0BtmxcnfiJAqy_xm_PLLcXFxdKwDdyfGBI3oiZ1F4uu0k6quPhvgeALqm6paaUFPtP4RMEu4JYRq9r89UmTCLHYRkSc3zxV7Z9ucAbDXpABpVEQLn4BPyiUYEjYst_WjzcvqL6w_QV4.7jQbxscJZcHexwAPa9uaDwxU9r6l3h3UZeJXTgkgm0U&dib_tag=se&keywords=laptops&qid=1708739984&s=electronics&sprefix=%2Celectronics%2C115&sr=1-7&ufe=app_do%3Aamzn1.fos.628a2120-cf12-4882-b7cf-30e681beb181'
+url = 'https://www.amazon.com.mx/Xiaomi-Celular-Redmi-13C-Midnight/dp/B0CLM9X2PP/ref=sr_1_1_sspa?crid=3E2VWPIPD7F7N&dib=eyJ2IjoiMSJ9.kbQl_yC5ii-aG1GNTDHu9LBtIyhv_Tkd-jIaFFaH-vjBnfxW1dn4SZKucbx0icEpVF7myYykEV_l9l1TocdFmHc7739IGmcbqWplWCj3UWYBk9hRjtizKs1e2l9t5qRa8VKoMGjY0QMD0l8WlFW_WRnyN8HVFEILtx8JHg_2UrW0bDsCluYpVyLNZHUeXAKWLf01nMBAgNu0EKAFakAGKEHT8TxDQc38Z1wbEwcHIoQDl9r9HclNGCNf-zMT18agwaCJD8wb91IqyRUVAPLSbN9v5tpWg4__6M-LgD6LhJQ.U85naYtkiOVR0nZSWBf-8rjdXp0p5GZvwIPLJaoSTZY&dib_tag=se&keywords=celulares&qid=1708993890&sprefix=celul%2Caps%2C144&sr=8-1-spons&ufe=app_do%3Aamzn1.fos.628a2120-cf12-4882-b7cf-30e681beb181&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1'
 # Instance of Scrapper with the specified URL
 scrapper = Scrapper(url)
 # Execute the scrape_sync method to scrape the web page and save data
