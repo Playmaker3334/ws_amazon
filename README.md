@@ -52,9 +52,6 @@ Para interactuar con el endpoint `/scrap`, puedes utilizar herramientas como cur
       "url": "https://www.amazon.com.mx/..."
     }
 
-### Capturas de Pantalla y Ejemplos de Código
-
-(Insertar capturas de pantalla y fragmentos de código según sea necesario para ilustrar el uso)
 
 ## Detalles de Contribución
 
@@ -75,4 +72,3 @@ Para preguntas o colaboraciones, por favor contacta a tuemail@dominio.com.
 
 Este proyecto está licenciado bajo la Licencia MIT, lo que permite una amplia libertad para uso personal y comercial. Un resumen de la licencia incluye la permisión de uso, copia, modificación, fusión, publicación, distribución, sublicenciación, y/o venta de copias del software.
 
-El archivo LICENSE en el repositorio contiene todos los detalles de la licencia.
